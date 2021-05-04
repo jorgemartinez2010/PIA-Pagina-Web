@@ -13,20 +13,26 @@ h1{
 }
 
 h2{
-    color: white;
+    color: white; 
+    text-align: center;
+}
+
+h3{
+    text-align: center;
 }
 
 h4{
     color: white;
     text-align: center;
 }
+
 p{
     text-align: justify;
     color: white;
 }
 
 .c1{
-    color: black;
+    color: yellow;
 }
 
 ul{
@@ -39,7 +45,7 @@ div{
 
 .c2{
     background-color: greenyellow;
-
+    text-align: center;
 }
 
 aside{
@@ -62,22 +68,30 @@ iframe{
     margin-right: auto;
 }
 
-.menu{
+.menu-pag{
     text-align: center;
     padding-left: 0;
     list-style: inside;
     background-color: yellow;
     flex-flow: row nowrap;
+    display: flex;
     justify-content: space-evenly;
     align-items: center;
     height: 50px;
 }
 
-.menu li:hover{
+.menu-pag li:hover{
     background-color: white;
 }
 
-.menu li{
+.menu-pag li{
     flex-grow: 1;
     padding: 1em 0;
+}
+h5{
+    color: red;
+}
+
+.header-pag{
+    grid-area: main;
 }
